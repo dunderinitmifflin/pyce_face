@@ -1,6 +1,7 @@
 # Project Pyface
 
 **Author** : Jay Adams, Tyler Fishbone, Jeremy Crawford, Ramon Mendoza
+
 **Version**: 1.0.0
 ￼
 ## Overview
