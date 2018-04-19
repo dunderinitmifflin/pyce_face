@@ -4,7 +4,7 @@
 **Version**: 1.0.0
 ￼
 ## Overview
-Pyface is a face-recognition platform that can be used to authenticate users for a multitude of different uses. Need to take attendance for class and know when students are showing up? Want to restrict access to your ‘secret lair’? Log employees in and out of work? By leveraging Amazon AMS Rekognition software, you can easily authenticate people that exist in your personal database by simply taking their picture, and just as easily increase that secret lair access by adding new people with exclusive ‘admin’ rights.
+Pyface is a face-recognition platform that can be used to authenticate users for a multitude of different uses. Need to take attendance for class and know when students are showing up? Want to restrict access to your ‘secret lair’? Log employees in and out of work? By leveraging Amazon AMS Rekognition software, you can easily authenticate people that exist in your personal database by simply taking their picture, and just as easily increase that secret lair access by adding new people through exclusive ‘admin’ rights.
 
 
 ## Hardware Required
