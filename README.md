@@ -61,6 +61,7 @@ RegisterFaces is only invoked when in ‘Admin’ mode, and allows the Administr
 #### Workflows
 ￼![pseudocode](../../images/pyface_register.pdf)
 ![pseudocode](../../images/pyface_search.pdf)
+![pseudocode](../../images/pyface_whiteboard.jpg)
 ../images/rpi_setup.jpg
 
 ## Change log
