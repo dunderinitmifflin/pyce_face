@@ -14,7 +14,7 @@ mySql database hosted on the Raspberry Pi 3
 
 ## API
 AWS services
-AWS Rekogntion
+AWS Rekognition
 AWS DynamoDB
 AWS S3
 
