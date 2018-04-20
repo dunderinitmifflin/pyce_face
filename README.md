@@ -9,10 +9,14 @@ Pyface is a face-recognition platform that can be used to authenticate users for
 
 ## Architechture
 Python 3.6.4
+mySql database hosted on the Raspberry Pi 3
 
 
 ## API
-None
+AWS services
+AWS Rekognition
+AWS DynamoDB
+AWS S3
 
 
 ## Hardware Required
@@ -25,6 +29,7 @@ Breadboard
 3 LEDs - Red, Yellow, Green
 Button
 Connection Wires
+../images/rpi_setup.jpg
 
 
 ## Programs/Services Required
@@ -45,24 +50,32 @@ TKinter
 3. Steal our code 
 4. Good luck figuring out AWS
 
-../images/rpi_setup.jpg
+
+## AWS Rekognition
+Amazon Rekognition makes it easy to add image and video analysis to your applications. You just provide
+an image or video to the Rekognition API, and the service can identify objects, people, text, scenes, and
+activities. It can detect any inappropriate content as well. Amazon Rekognition also provides highly
+accurate facial analysis and facial recognition. You can detect, analyze, and compare faces for a wide
+variety of use cases, including user verification, cataloging, people counting, and public safety.
+![pseudocode](../../images/Rekognition_faces_detected_4_days.png)
+![pseudocode](../../images/Rekognition_succesful_calls_4_days.png)
+
 
 ## Functionality
 Pyface relies on two primary functions to operate, a SearchFaces Lambda and a RegisterFaces Lambda. Both of these Lambdas operate with AWS Rekognition.
 
 ### SearchFaces 
 SearchFaces is invoked every time you take a picture when you are not in ‘Admin’ mode. When invoked, SearchFaces takes a picture of the subject and passes it to S3, where it is processed through Lambda and sent to Rekognition. In Rekognition, it compares the face in the picture to all users. If a match is found, a green light comes on. If not match is found, a red light comes on. Every time a successful event occurs, the user is logged to a local database for future use.
-
-#### Workflows
-￼../images/searchfaces.jpg
+![pseudocode](../../images/pyface_search.pdf)
 
 
 ### RegisterFaces 
 
 RegisterFaces is only invoked when in ‘Admin’ mode, and allows the Administrator to access a TKinter window that allows them to input user information, as well as a picture of the subject. That information is then sent to an S3 bucket, where it is indexed and added to a DynamoDB database, as well as a local database for future use.
+![pseudocode](../../images/pyface_register.pdf)
 
 #### Workflows
-￼../images/registerfaces.jpg
+￼![pseudocode](../../images/pyface_whiteboard.jpg)
 
 
 ## Change log
@@ -77,20 +90,4 @@ https://kennbrodhagen.net/2016/03/09/how-to-return-a-custom-error-object-and-sta
 
 https://github.com/aws/aws-iot-device-sdk-python
 
-
-
-# Multi Bracket Validation
-## Overview
-Our group has chosen to pursue a project wherein we will utilize a raspberry pi with a connected camera to conduct facial recognition on people who interact with it. Our plan is to utilize the ‘Rekognition’ web service offered by amazon to do this:
-
-Our application will enable ‘approved’ users to register with the app so that when they interact with it, positive feedback is given in the form of a green or red light and further down the line maybe an unlocked door on an event fridge...
-
-## Goal
-Our aim with this project is to develop skills using industry standard tools (Rekognition and Raspberry Pi) that we can then bring to employers after code fellows ends, as well as have a project that is easily extendable as we look to grow our portfolio of ‘passion projects’.
-
-## Getting Started
-Set up instructions will be added once our project is a bit more firmed up.
-
-## Assets
-https://aws.amazon.com/rekognition/
 
