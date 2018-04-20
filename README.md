@@ -29,7 +29,8 @@ Breadboard
 3 LEDs - Red, Yellow, Green
 Button
 Connection Wires
-![](/images/rpi_setup.jpg)
+![pseudocode](images/pyface_front.jpg)
+![pseudocode](images/pyface_topview.jpg)
 
 
 ## Programs/Services Required
