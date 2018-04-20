@@ -67,13 +67,14 @@ Pyface relies on two primary functions to operate, a SearchFaces Lambda and a Re
 
 ### SearchFaces 
 SearchFaces is invoked every time you take a picture when you are not in ‘Admin’ mode. When invoked, SearchFaces takes a picture of the subject and passes it to S3, where it is processed through Lambda and sent to Rekognition. In Rekognition, it compares the face in the picture to all users. If a match is found, a green light comes on. If not match is found, a red light comes on. Every time a successful event occurs, the user is logged to a local database for future use.
-![pseudocode](images/pyface_search.pdf)
+![pseudocode](images/pyface_search.png)
 
 
 ### RegisterFaces 
 
 RegisterFaces is only invoked when in ‘Admin’ mode, and allows the Administrator to access a TKinter window that allows them to input user information, as well as a picture of the subject. That information is then sent to an S3 bucket, where it is indexed and added to a DynamoDB database, as well as a local database for future use.
-![pseudocode](images/pyface_register.pdf)
+![pseudocode](images/pyface_register.png)
+
 
 #### Workflows
 ￼![pseudocode](images/pyface_whiteboard.jpg)
