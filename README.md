@@ -14,7 +14,7 @@ mySql database hosted on the Raspberry Pi 3
 
 ## API
 AWS services
-AWS Rekogntion
+AWS Rekognition
 AWS DynamoDB
 AWS S3
 
@@ -29,7 +29,7 @@ Breadboard
 3 LEDs - Red, Yellow, Green
 Button
 Connection Wires
-../images/rpi_setup.jpg
+![](/images/rpi_setup.jpg)
 
 
 ## Programs/Services Required
@@ -50,7 +50,8 @@ TKinter
 3. Steal our code 
 4. Good luck figuring out AWS
 
-## AWS Rekocntion
+
+## AWS Rekognition
 Amazon Rekognition makes it easy to add image and video analysis to your applications. You just provide
 an image or video to the Rekognition API, and the service can identify objects, people, text, scenes, and
 activities. It can detect any inappropriate content as well. Amazon Rekognition also provides highly
@@ -89,20 +90,3 @@ https://softwaremill.com/access-control-system-with-rfid-and-amazon-rekognition/
 https://kennbrodhagen.net/2016/03/09/how-to-return-a-custom-error-object-and-status-code-from-api-gateway-with-lambda/
 
 https://github.com/aws/aws-iot-device-sdk-python
-
-
-
-## Overview
-Our group has chosen to pursue a project wherein we will utilize a raspberry pi with a connected camera to conduct facial recognition on people who interact with it. Our plan is to utilize the ‘Rekognition’ web service offered by amazon to do this:
-
-Our application will enable ‘approved’ users to register with the app so that when they interact with it, positive feedback is given in the form of a green or red light and further down the line maybe an unlocked door on an event fridge...
-
-## Goal
-Our aim with this project is to develop skills using industry standard tools (Rekognition and Raspberry Pi) that we can then bring to employers after code fellows ends, as well as have a project that is easily extendable as we look to grow our portfolio of ‘passion projects’.
-
-## Getting Started
-Set up instructions will be added once our project is a bit more firmed up.
-
-## Assets
-https://aws.amazon.com/rekognition/
-
