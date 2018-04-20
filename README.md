@@ -92,3 +92,5 @@ https://kennbrodhagen.net/2016/03/09/how-to-return-a-custom-error-object-and-sta
 https://github.com/aws/aws-iot-device-sdk-python
 
 https://gist.github.com/alexcasalboni/0f21a1889f09760f8981b643326730ff
+
+https://aws.amazon.com/blogs/machine-learning/build-your-own-face-recognition-service-using-amazon-rekognition/
