@@ -95,3 +95,9 @@ https://github.com/aws/aws-iot-device-sdk-python
 https://gist.github.com/alexcasalboni/0f21a1889f09760f8981b643326730ff
 
 https://aws.amazon.com/blogs/machine-learning/build-your-own-face-recognition-service-using-amazon-rekognition/
+
+https://docs.python.org/3.6/library/tkinter.html
+
+http://www.tkdocs.com/tutorial/install.html
+
+https://wiki.python.org/moin/TkInter
