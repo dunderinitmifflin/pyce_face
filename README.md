@@ -99,3 +99,5 @@ https://aws.amazon.com/blogs/machine-learning/build-your-own-face-recognition-se
 https://docs.python.org/3.6/library/tkinter.html
 
 http://www.tkdocs.com/tutorial/install.html
+
+https://wiki.python.org/moin/TkInter
