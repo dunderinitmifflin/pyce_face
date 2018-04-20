@@ -90,3 +90,5 @@ https://softwaremill.com/access-control-system-with-rfid-and-amazon-rekognition/
 https://kennbrodhagen.net/2016/03/09/how-to-return-a-custom-error-object-and-status-code-from-api-gateway-with-lambda/
 
 https://github.com/aws/aws-iot-device-sdk-python
+
+https://gist.github.com/alexcasalboni/0f21a1889f09760f8981b643326730ff
